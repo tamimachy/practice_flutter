@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class WelcomePage extends StatelessWidget {
   String name, email, phone;
 
-  WelcomePage({required this.name, required this.email, required this.phone});
+  WelcomePage({required this.name,required this.email,required this.phone});
 
   @override
   Widget build(BuildContext context) {

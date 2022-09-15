@@ -1,21 +1,26 @@
 import 'package:august_27/data_pass/page_1.dart';
+import 'package:august_27/recipe_app_with_api/home.dart';
 import 'package:flutter/material.dart';
 
 void main(){
   runApp(MyApp());
 }
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Flutter Practice",
+      title: "Recipe App",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.orange,
+        primaryColor: Colors.white,
+        textTheme: TextTheme(
+          bodyText2: TextStyle(color: Colors.white)
+        )
       ),
-      home: DataPassing(),
+      home: HomePage(),
     );
   }
 }

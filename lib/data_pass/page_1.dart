@@ -2,7 +2,7 @@ import 'package:august_27/data_pass/page_2.dart';
 import 'package:flutter/material.dart';
 
 class DataPassing extends StatefulWidget {
-  const DataPassing({Key? key}) : super(key: key);
+  const DataPassing({key}) : super(key: key);
 
   @override
   State<DataPassing> createState() => _DataPassingState();
